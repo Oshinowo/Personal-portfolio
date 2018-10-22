@@ -40,11 +40,10 @@ body {
 
 #intro {
   display: flex;
-  margin: 180px auto;
+  margin: 100px auto;
   height: 150px;
-  width: 280px;
-  padding: 10px;
-  line-height: 38px;
+  width: 250px;
+  padding: 5px;
 }
 
 img {
@@ -60,7 +59,7 @@ img {
 }
 
 h2 {
-  margin: 50px 300px 10px 300px;
+  margin: 50px 300px 25px 300px;
 }
 #projects {
   font-size: 16px;
@@ -145,7 +144,7 @@ h2 {
 
 @media only screen and (max-width: 880px) {
   #projects {
-    margin: 455px auto 550px auto;
+    margin: 580px auto 550px auto;
     width: 100vw;
   }
   .project-tile {
@@ -165,23 +164,22 @@ h2 {
 @media only screen and (max-width: 500px) {
   #navbar a,
   #navbar li {
-    width: 155px;
-    margin: 12px;
-    padding: 10px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
   }
 
   #intro {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 80px auto;
-    width: 150px;
-    padding: 15px;
+    margin: 20px auto;
+    width: 120px;
     text-align: left;
   }
 
   #intro img {
-    border-radius: 10px;
+    border-radius: 8px;
     margin: auto;
   }
 
@@ -190,21 +188,29 @@ h2 {
   }
 
   h2 {
-    margin: 48px 30px 0px 30px;
+    margin: 35px 30px 20px 30px;
   }
 
+   #projects{
+    margin-top: 550px;
+  }
+  
+  .project-tile{
+    margin: 18px;
+  }
+  
   #Technical-documentation-page,
   #portfolio,
   #Beach {
     display: none;
   }
 
-  #btn {
+/**  #btn {
     margin: 20px 25% auto 25%;
     padding: 10px;
     width: 150px;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 5px;**/
   }
 
   #contact {
@@ -222,8 +228,7 @@ h2 {
     color: white;
   }
   #footer span {
-    margin: 50px;
-    padding: 10px;
+    padding: 8px;
   }
 }
 
@@ -237,40 +242,38 @@ h2 {
   #intro{
     margin: 50px auto;
     padding: 5px;
-    line-height: 35px;
   }
   
   #projects{
-    margin-top: 505px;
+    margin-top: 550px;
   }
 
-  #btn {
+/**  #btn {
     margin: 20px 25% auto 25%;
     padding: 10px;
     width: 150px;
     height: 55px;
-    border-radius: 5px;
+    border-radius: 5px;**/
   }
 }
 
 @media only screen and (max-width: 380px) {
   #intro{
     margin: 50px auto;
-    padding: 10px;
-    line-height: 35px;
+    padding: 5px;
   }
   #projects{
-    margin: 505px auto;
+    margin: 550px auto;
     margin-bottom: 550px;
   }
   
-  #btn{
+/**  #btn{
     margin-top:  20px;
     height: 45px;
-    width: 120px;
+    width: 120px;**/
   }
 }
-  @media only screen and (max-width: 320px){
+  @media only screen and (max-width: 350px){
     #navbar a,
 #navbar li {
   width: 100px;
@@ -278,11 +281,20 @@ h2 {
   padding: 5px;
 }
     
-    #btn{
+ /**   #btn{
       margin-top: 10px;
-    }
+    }**/
     
-    #footer{
-      display: flex;
-    }
   }
+
+@media only screen and (max-width: 295px){
+      #navbar a,
+#navbar li {
+  width: 100px;
+  margin: 3px;
+  padding: 5px;
+}
+  h2{
+    margin-top: 48px;
+  }
+}
